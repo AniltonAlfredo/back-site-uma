@@ -12,6 +12,7 @@ import java.util.List;
 @Controller
 @RequestMapping("/noticia")
 //@CrossOrigin("http://localhost:3000/")
+@CrossOrigin("*")
 public class NoticiaController {
 
     private final NoticaService noticaService;

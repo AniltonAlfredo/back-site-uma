@@ -12,6 +12,7 @@ import java.util.List;
 @Controller
 @RequestMapping("/evento")
 //@CrossOrigin("http://localhost:3000/")
+@CrossOrigin("*")
 public class EventoController {
     private final EventoService eventoService;
 
